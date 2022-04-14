@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="heading">Calculator</h1>
+    <div id="container">
+        <div id="outputBox"><span id="result">0</span></div>
+        <div id="signFirstRow">
+            <div class="firstRowElement operator" id="ac">AC</div>
+            <div class="firstRowElement operator" id="divide">/</div>            
+            <div class="firstRowElement operator" id="delete_last_characer">&#215;</div>            
+
+        </div>
+        <div id="digitRows">
+            <div id="firstRow">
+                <div class="element white " id="seven">7</div>
+                <div class="element white" id="eight">8</div>
+                <div class="element white" id="nine">9</div>
+                <div class="element operator" id="star">*</div>
+            </div>
+            <div id="secondRow">
+                <div class="element white" id="four">4</div>
+                <div class="element white" id="five">5</div>
+                <div class="element white" id="six">6</div>
+                <div class="element operator" id="minus">-</div>
+            </div>
+            <div id="thirdRow">
+                <div class="element white" id="one">1</div>
+                <div class="element white" id="two">2</div>
+                <div class="element white" id="three">3</div>
+                <div class="element operator" id="plus">+</div>
+            </div>
+        </div>
+        <div id="lastRow">
+            <div class="lastRowElement element white" id="zero">0</div>
+            <div class="lastRowElement element white" id="dot">&middot</div>
+            <div class="lastRowElement element operator" id="equal">=</div>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
